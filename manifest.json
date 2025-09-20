@@ -1,0 +1,26 @@
+{
+    "manifest_version": 3,
+    "name": "Lingodeer Improvements",
+    "version": "1.0",
+
+    "description": "Improves quality-of-life for the Lingodeer web client (https://www.lingodeer.com).",
+
+    "developer": {
+        "name": "Evan Hock",
+        "url": "https://github.com/Evan-Hock"
+    },
+
+    "icons": {
+        "32": "icons/32-lingodeer.png",
+        "64": "icons/64-lingodeer.png"
+    },
+
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*.lingodeer.com/*"
+            ],
+            "js": ["content_script.js"]
+        }
+    ]
+}
