@@ -1,0 +1,10 @@
+{
+    "plugins": ["plugins/markdown"],
+    "source": {
+        "include": ["content_script.js"]
+    },
+    "opts": {
+        "encoding": "utf8",
+        "destination": "./build/docs"
+    }
+}
