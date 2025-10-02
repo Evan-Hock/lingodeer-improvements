@@ -12,7 +12,8 @@
 
     "icons": {
         "32": "icons/32-lingodeer.png",
-        "64": "icons/64-lingodeer.png"
+        "64": "icons/64-lingodeer.png",
+        "128": "icons/128-lingodeer.png"
     },
 
     "content_scripts": [
